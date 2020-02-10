@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'junct-bold';
+  src: url(../fonts/Junction-bold.woff2)
+}
+
+@font-face {
+  font-family: 'junct-light';
+  src: url(../fonts/Junction-light.woff2)
+}
+
+@font-face {
+  font-family: 'junct-reg';
+  src: url(../fonts/Junction-regular.woff2)
+}
+
+body{
+  font-family: junct-reg, sans-serif;
+}
+

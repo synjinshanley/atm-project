@@ -1,0 +1,43 @@
+@import url(foundation.min.css);
+body {
+  text-align: center;
+  background-color: aquamarine;
+  overflow: hidden; }
+
+img {
+  width: 50%; }
+
+.menu {
+  margin-left: 30%;
+  margin-right: 10%; }
+
+.transaction {
+  margin-top: 15%;
+  margin-bottom: 50%;
+  padding-top: 45%; }
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 2%; }
+
+  .transaction {
+    padding-top: 5%; } }
+@media only screen and (min-width: 769px) {
+  .menu {
+    margin-left: 22%; }
+
+  .transaction {
+    padding-top: 0; } }
+@font-face {
+  font-family: 'junct-bold';
+  src: url(../fonts/Junction-bold.woff2); }
+@font-face {
+  font-family: 'junct-light';
+  src: url(../fonts/Junction-light.woff2); }
+@font-face {
+  font-family: 'junct-reg';
+  src: url(../fonts/Junction-regular.woff2); }
+body {
+  font-family: junct-reg, sans-serif; }

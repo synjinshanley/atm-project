@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ATM app</title>
+    <meta name="description" content="totally real bank page">
+    <link href="../css/override.css" type="text/css" rel="stylesheet">
+</head>
+
+ <body>
+
+    <form>
+
+        <img src="../images/bank.jpg" alt="bank logo">
+
+        <h3>Welcome to the totally real bank</h3>
+
+        <div class="menu">
+
+
+                <a href="#with-div">Withdraw</a>
+
+                <a href="#depo-s-div">Deposit(savings)</a>
+
+                <a href="#depo-c-div">Deposit(checking)</a>
+
+                <a href="#balance-div">Check balance</a>
+
+        </div>
+
+        <div class="transaction" id="with-div">
+
+            <label for="withdraw">Please enter the Amount you would like to withdraw</label>
+
+            <input id="withdraw" name="withdraw" type="number" placeholder="$XXX">
+
+            <div>
+
+                <a class="alert button" href="./ATM.html">Cancel</a>
+
+                <a class="success button" href="./ATM.html">Submit</a>
+
+            </div>
+
+        </div>
+
+        <div class="transaction" id="depo-s-div">
+
+            <label for="depo-s">Please enter the amount you would like to deposit</label>
+
+            <input id="depo-s" name="depo-s" type="number" placeholder="$XXX">
+
+            <div>
+
+                <a class="alert button" href="./ATM.html">Cancel</a>
+
+                <a class="success button" href="./ATM.html">Submit</a>
+
+            </div>
+
+        </div>
+
+        <div class="transaction" id="depo-c-div">
+
+            <label for="depo-c">Please enter the amount you would like to deposit</label>
+
+            <input id="depo-c" name="depo-c" type="number" placeholder="$XXX">
+
+            <div>
+
+                <a class="alert button" href="./ATM.html">Cancel</a>
+
+                <a class="success button" href="./ATM.html">Submit</a>
+
+            </div>
+
+        </div>
+
+        <div class="transaction" id="balance-div">
+
+            <p>Your account balance is:</p>
+
+            <h3 id="balance">...</h3>
+
+            <a class="success button" href="./ATM.html">Ok</a>
+
+        </div>
+
+
+    </form>
+    <script src="../js/Main.js" type="module"></script>
+ </body>
+
+</html>
